@@ -1,0 +1,32 @@
+{
+  "name": "zaplista",
+  "version": "0.1.5",
+  "private": true,
+  "type": "module",
+  "description": "Extensão local Manifest V3 para campanhas de texto revisadas no WhatsApp Web",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:visual": "node scripts/visual-test.mjs",
+    "test:extension": "node scripts/extension-test.mjs",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "libphonenumber-js": "^1.13.15",
+    "read-excel-file": "^7.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/chrome": "^0.1.24",
+    "esbuild": "^0.25.11",
+    "fake-indexeddb": "^6.2.4",
+    "fflate": "^0.8.2",
+    "happy-dom": "^21.0.4",
+    "pngjs": "^7.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.12"
+  }
+}

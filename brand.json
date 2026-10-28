@@ -1,0 +1,8 @@
+{
+  "name": "ZapLista",
+  "description": "Suas listas, uma conversa de cada vez.",
+  "version": "0.1.5",
+  "primary": "#145c48",
+  "accent": "#e8c875",
+  "initial": "Z"
+}

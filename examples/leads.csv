@@ -1,0 +1,6 @@
+telefone;nome;empresa;cidade
++12025550101;Ana Exemplo;Estúdio Fictício;Cidade Exemplo
++12025550102;Bruno Exemplo;Oficina Demonstração;Vila Fictícia
++12025550103;Carla Exemplo;Ateliê de Teste;Cidade Exemplo
++12025550101;Ana Duplicada;Estúdio Fictício;Cidade Exemplo
+1.234E+12;Linha Inválida;Somente Demonstração;Cidade Exemplo
